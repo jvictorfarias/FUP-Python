@@ -14,5 +14,8 @@ def anulaEspacos(string):
             while(string[i] is ' '):
                 count = i
                 i += 1
-            count += 1          
+            count += 1
     print(aux)
+
+
+anulaEspacos(raw_input())
